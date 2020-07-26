@@ -5,7 +5,7 @@ from django import forms
 from django.shortcuts import redirect
 from django.urls import reverse
 
-from posts.models import Post, Comment
+from .models import Post, Comment
 
 
 class PostList(ListView):

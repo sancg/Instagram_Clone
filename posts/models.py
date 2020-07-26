@@ -8,7 +8,9 @@ class Post(models.Model):
     author = models.ForeignKey(
         User, on_delete=models.CASCADE
     )  # When a User is deleted all their post are deleted too
-    created = models.DateTimeField(auto_now_add=True)  # Timestamp
+    created = models.DateTimeField(
+        auto_now_add=True
+    )  # Timestamp consultar horario del sistema
     modified = models.DateTimeField(auto_now=True)
 
 

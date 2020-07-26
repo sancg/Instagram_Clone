@@ -51,6 +51,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
+# cSpell: Disable
 ROOT_URLCONF = "pygram.urls"
 
 TEMPLATES = [
